@@ -1,0 +1,9 @@
+<h1>All Tables</h1>
+
+
+<form action="/tabledata" method="post">
+      {% for data in something %}
+        <button type="submit"  value="{{ data }}" name="choice">{{ data }}</button>
+        <br>
+       {%endfor%}
+</form>

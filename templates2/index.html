@@ -1,0 +1,10 @@
+<h1>All Database</h1>
+
+<h1>{{ something }}</h1>
+
+<form action="/tables" method="post">
+      {% for data in something %}
+        <button type="submit"  value="{{ data }}" name="choice">{{ data }}</button>
+        <br>
+       {%endfor%}
+</form>

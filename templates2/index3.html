@@ -1,0 +1,12 @@
+<h1>All Table Data</h1>
+
+
+<table>
+    {% for row in something %}
+    <tr style="outline: thin solid" >
+        {% for cell in row %}
+        <td>{{ cell }}</td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
